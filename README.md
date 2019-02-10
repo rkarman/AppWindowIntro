@@ -117,9 +117,9 @@ Yes, another preview method here. This is the same reason as for the XAML previe
 For the activation type (pointer or code activated), you listen to the XAML Window.Activated event just as you do for an ApplicationView with XAML.
 
 ### Give me a project to play around with already!
-I know, you always have to scroll to the end of a webpage to get to the good stuff, huh? 
+The snippets in this README are from the “quick and dirty” sample for getting a second window on screen that you can find here. The project is ApiTeaser.sln and all the funtionality is in the MainPage.xaml.cs file.
 
-The snippets above are from my “quick and dirty” sample for getting a second window on screen, and it is right here on my github repository, you're looking at it. ;) It's in the APITeaser subfolder. Please don’t submit PRs, I am unlikely to accept them since this really isn’t meant to be anything else than a quick-start sample for you to start experimenting with the feature. Stay tuned for more complete samples targeting specific scenarios and functionality though, and the blogposts to go along with them.
+**Note:** Please don’t submit PRs, I am unlikely to accept them since this really isn’t meant to be anything else than a quick-start sample for you to start experimenting with the feature. Stay tuned for more complete samples targeting specific scenarios and functionality though, and the blogposts/readmes to go along with them.
 
 ## Wait... There’s one more thing.
 _“I saw your twitter replies about UIContext, what is this one about?”_

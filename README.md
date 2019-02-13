@@ -64,7 +64,7 @@ Another async method? That is correct. The show operation is async as well since
 
 That’s it. You now how a second window up for your app, and all your in-app logic continues to run on the same thread for this window. Easy-peasy!
 
-### Lifetime of mulit-windowed apps
+### Lifetime of multi-windowed apps
 Now that we have two windows in our app we need to talk about lifetime management. Ah yes, nothing in this world comes for free now does it?
 
 #### The CoreWindow/ApplicationView

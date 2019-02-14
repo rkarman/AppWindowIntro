@@ -86,7 +86,7 @@ Your AppWindow will in most cases get foreground when TryShowAsync is called, th
 
 Enter the new InputActivationListener. The introduction of this class and the future of input APIs deserves a whole post for itself, so for the purpose of this quick intro I’ll just give you a very brief description.
 
-The InputActivationListener is used to ger information about activation of your AppWindow, in the current release it will not support any other type of window. You can get to the InputActivationListener object for your AppWindow from the InputActivationListenerPreview class. Once you have an instance you register for the InputActivationChanged and this will give you the information on what just happened to your window (activated, activated but not foreground, or deactivated).
+The InputActivationListener is used to get information about activation of your AppWindow, in the current release it will not support any other type of window. You can get to the InputActivationListener object for your AppWindow from the InputActivationListenerPreview class. Once you have an instance you register for the InputActivationChanged and this will give you the information on what just happened to your window (activated, activated but not foreground, or deactivated).
 ```C#
 void SetupListenersForWindow(AppWindow window)
 {
